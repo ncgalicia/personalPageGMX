@@ -1,14 +1,17 @@
+/******* Generales *********/
 :root {
-    --fondo: #EEF5FF;
+    
     --oscuro: #212121;
     --primario: #A25772;
-    --secundario: #9EB8D9;
+    --secundario: #EEF5FF;
+    --fondo: #9EB8D9;
     --azul: #7C93C3;
 }
-h1 {
-    font-size: 40px;
-    text-align: Center;
 
+body{
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+    background-image:  linear-gradient(to top, var(--grisClaro)  0, var(--blanco ) 100% );
 }
 
 
@@ -20,11 +23,13 @@ h1 {
     background-color: var(--fondo);
     padding: 3rem 3rem 3rem 3rem;
     border-radius: 2rem;
+    margin-top: 10px;
       
 }
 
+/***** Menu de Navegación *******/
 .navegacion{
-    background-color: var(--secundario);
+    background-color: var(--primario);
 }
 
 .navegacion-principal{    
@@ -37,7 +42,7 @@ h1 {
 .navegacion-principal a{
     display: block;
     text-align: center;
-    color: var(--primario);
+    color: var(--secundario);
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
