@@ -1,2 +1,2 @@
 # personalPageGMX
-Pagina Personal BootCamp Generatin México
+Pagina Personal BootCamp Generation México
