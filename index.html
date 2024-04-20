@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Mi pagina Personal</title>
     
@@ -19,26 +21,36 @@
     </div>
 <!---Comienzo del main-->
     <main class="contenedor sombra">
-        <di></di>
-        <div class="contenidos">
-            <section class="contenido">
-                <div class="personal">
-                    <h2>Nancy Yareli Galicia Cedillo</h2>
-                    Ing. en Sistemas Inteligente
-                </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm s"  id="col-izq">
+                    <div class="card" style="width: 20rem;">
+                        <img src="img/icon.png" class="card-img-top" alt="me">
+                        <div class="card-body">
+                          <h3 class="card-title">Nancy Yareli Galicia Cedillo</h3>
+                          <p class="card-text">Ing. en Sistemas Inteligentes</p>
 
-                <div>
-                    <h2>Pasatiempos</h2>
-                    <ul>Salir con amigos</ul>
-                    <ul>Jugar con mis Mascotas</ul>
-                    
+                          <a href="" class="btn btn-primary">LinkInd</a>
+                    </div>
                 </div>
+            </div>          
+                 
+                <div class="col-sm " id="col-der">
+                    <h1>Pasatiempos</h1>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Jugar con mis perros</li>
+                        <li class="list-group-item">Salir con Amigos</li>
+                        <li class="list-group-item">Ver peliculas</li>
+                      </ol>               
     
-            </section>
-
+                </div>           
+                  
+            
         </div>
-
     </main>
+    <foter>
+        
+    </foter>
 
     
 </body>
